@@ -6,7 +6,7 @@ permalink: /about/
 
 ![Red Square]({{ site.baseurl }}/images/flavor/red_square_1801_alekseyev.jpg)
 
-Welcome to the *Faces of Russia*!
+# Welcome to the *Faces of Russia*!
 
 This project uses an Latent Dirichlet allocation (LDA) topic modeling technique for distant reading on a novel corpus of English-language texts about Russia from the 19<super>th</super> and 20<super>th</super> centuries. The corpus documents are modeled as compositions of the resulting topics and are be indexed by year to make visible any changes in frequency over the time period. The findings are presented here on a dedicated website in the style of [*Mining the Dispatch*](https://dsl.richmond.edu/dispatch/), created by Richard K. Nelson at the University of Richmond.
 
@@ -23,8 +23,8 @@ topics and how these change over time (see below).
 
 ### Notes
 
-* For this project, for a text to be "about Russia", that text must be returned by the Project Gutenberg search function and then manually screened for relevance.
+\* For this project, for a text to be "about Russia", that text must be returned by the Project Gutenberg search function and then manually screened for relevance.
 
 ### Contact me
 
-[email@domain.com](mailto:alexander_berry@brown.edu)
+[alexander_berry@brown.edu](mailto:alexander_berry@brown.edu)
