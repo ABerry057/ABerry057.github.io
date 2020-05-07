@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Faces of Russia
+name: Berry Bengali
 
 # Short bio or description (displayed in the header)
-description: Analyzing Changes in Perceptions of Russia in English-Language Literature
+description: Classifying handwritten characters of the Bengali alphabet
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://b.thumbs.redditmedia.com/_lf7ZQvQF8MCoPqqTbA8QrikNu2-ltroMbmuVfzCRxE.png
+avatar: https://www.symbols.com/images/symbol/1/4800_ya-bengali-script.png
 
 #
 # Flags below are optional
@@ -21,7 +21,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: ABerry057/facesOfRussia
+  github:
   instagram:
   linkedin:
   pinterest:

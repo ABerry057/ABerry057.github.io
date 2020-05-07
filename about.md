@@ -4,27 +4,27 @@ title: About
 permalink: /about/
 ---
 
-![Red Square]({{ site.baseurl }}/images/flavor/red_square_1801_alekseyev.jpg)
+### Background
 
-# Welcome to the *Faces of Russia*
+This project is part of of the Bengali.AI Handwritten Grapheme Classification [Kaggle competition](https://www.kaggle.com/c/bengaliai-cv19). The organizers of the competition provide the following motivation for the task:
 
-This project uses an Latent Dirichlet allocation (LDA) topic modeling technique for distant reading on a novel corpus of English-language texts about Russia from the 19<super>th</super> and 20<super>th</super> centuries. The corpus documents are modeled as compositions of the resulting topics and are be indexed by year to make visible any changes in frequency over the time period. The findings are presented here on a dedicated website in the style of [*Mining the Dispatch*](https://dsl.richmond.edu/dispatch/), created by Richard K. Nelson at the University of Richmond.
+Bengali is the 5th most spoken language in the world with hundreds of million of speakers. It’s the official language of Bangladesh and the second most spoken language in India. Considering the language's reach, there is significant business and educational interest in developing AI that can optically recognize images of the language's handwritten script. This challenge hopes to improve on existing approaches to Bengali handwriting recognition.
 
-### The Process
+Optical character recognition is particularly challenging for Bengali. While the script has 49 letters (to be more specific 11 vowels and 38 consonants) in its alphabet, there are also 18 potential diacritics. This means that there are many more graphemes, or the smallest units in a written language. The added complexity results in ~13,000 different grapheme variations (compared to English’s 250 graphemic units).
 
-1. Gather English-language texts from the 19<super>th</super> and 20<super>th</super> centuries that mention Russia*.These texts are in the public domain and are made publicly available by Project Gutenberg. In addition to the text content, the text's author and publication date are recorded.
-2. Use a series of Python scripts to clean and organize the texts in a format suitable for [MALLET](http://mallet.cs.umass.edu/), the Machine Learning for Language Toolkit developed at the University of Massachusetts Amherst.
-3. Using MALLET, perform LDA-based topic modeling on the corpus for eight topics, noting the
-generated topics for coherence and then assigning a label to the topic that best describes the topic.
-4. Organize and publish the results of the modeling on this website to explain topic
-modeling as a tool for distant reading and also highlight the most interesting
-topics and how these change over time (see below).
-5. Maintain the corpus, cleaning, organisation, modeling, and visualization scripts and assosciated documentation in a [public repository on GitHub](https://github.com/ABerry057/facesOfRussia).
+<p align="center">
+  <img src="https://ohfact.com/wp-content/uploads/2017/03/Alphabets-of-Bengali-Language.jpg">
+  <br/>
+  <small>A sample of the Bengali Alphabet from OhFact.com</small>
+</p>
 
-### Notes
+Bangladesh-based non-profit Bengali.AI is focused on solving this problem. They build and release crowdsourced, metadata-rich datasets and open source them through research competitions. Through this work, Bengali.AI hopes to democratize and accelerate research in Bengali language technologies and to promote machine learning education.
 
-\* For this project, for a text to be "about Russia", that text must be returned by the Project Gutenberg search function and then manually screened for relevance.
+For this competition, participants are given the image of a handwritten Bengali grapheme and are challenged to separately classify three constituent elements in the image: grapheme root, vowel diacritic, and consonant diacritic.
 
-### Contact me
+Through their innovation and hard work, particpants will accelerate Bengali handwritten optical character recognition research and help enable the digitalization of educational resources. Moreover, the methods introduced in the competition will also empower cousin languages in the Indian subcontinent.
 
-[alexander_berry@brown.edu](mailto:alexander_berry@brown.edu)
+### Source Code and Data
+
+Check out the [GitHub repository](https://github.com/csjasonchan357/bengali-char-recognition) which contains our source code and data!
+
